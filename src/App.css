@@ -1,0 +1,56 @@
+
+.body{
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+  background-color: gray;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.mainDiv{
+  margin-left: 33vw;
+  background-color: white;
+  width: 375px;
+  height: 812px;
+}
+.title{
+  padding: 5px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: monospace;
+  justify-content: left;
+}
+.bloodgroup{
+  color: gray;
+  font-size: 12px;
+}
+.resume{
+  border-radius: 5px;
+  padding: 5px;
+  width: 63px;
+}
+.resumeDiv :hover{
+  background-color: rgb(217, 229, 233);
+}
+.resumeDiv{
+  padding: 4px;
+  /* border: 1px solid rgb(236, 231, 231);
+  border-radius: 5px; */
+  cursor: pointer;
+}
+.skills{
+  margin-top: 10px;
+}
+.skillBlud{
+  margin: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
