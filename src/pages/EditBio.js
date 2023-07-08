@@ -14,6 +14,7 @@ export default function ({ profile, setprofile }) {
   useEffect(() => {
     getSkills()
   }, [])
+  
 
   const getSkills = () => {
     simpleGetCall("https://newpublicbucket.s3.us-east-2.amazonaws.com/reactLiveAssignment/JsonFiles/GetProfessionalSkillsResponse.json")
